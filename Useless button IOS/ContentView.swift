@@ -6,14 +6,18 @@
 //
 
 import SwiftUI
+import Combine
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        VStack{
+            Text("Press me")
+                .foregroundColor(Color.black)
             .padding()
     }
 }
-
+}
+//ignore this future me
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
