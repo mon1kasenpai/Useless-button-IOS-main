@@ -13,6 +13,8 @@
 		5F1D17B426A107FF0090C0FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D17B326A107FF0090C0FF /* Assets.xcassets */; };
 		5F1D17B726A107FF0090C0FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D17B626A107FF0090C0FF /* Preview Assets.xcassets */; };
 		5F1D17BA26A107FF0090C0FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F1D17B826A107FF0090C0FF /* LaunchScreen.storyboard */; };
+		5FB6AD4626A3C57E002BD85F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB6AD4526A3C57E002BD85F /* ViewController.swift */; };
+		5FB6AD4C26A3C95F002BD85F /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 5FB6AD4B26A3C95F002BD85F /* Sound */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		5F1D17B626A107FF0090C0FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5F1D17B926A107FF0090C0FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5F1D17BB26A107FF0090C0FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB6AD4526A3C57E002BD85F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5FB6AD4B26A3C95F002BD85F /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 		5F1D17AC26A107FE0090C0FF /* Useless button IOS */ = {
 			isa = PBXGroup;
 			children = (
+				5FB6AD4B26A3C95F002BD85F /* Sound */,
 				5F1D17AD26A107FE0090C0FF /* AppDelegate.swift */,
 				5F1D17AF26A107FE0090C0FF /* SceneDelegate.swift */,
 				5F1D17B126A107FE0090C0FF /* ContentView.swift */,
+				5FB6AD4526A3C57E002BD85F /* ViewController.swift */,
 				5F1D17B326A107FF0090C0FF /* Assets.xcassets */,
 				5F1D17B826A107FF0090C0FF /* LaunchScreen.storyboard */,
 				5F1D17BB26A107FF0090C0FF /* Info.plist */,
@@ -134,6 +140,7 @@
 			files = (
 				5F1D17BA26A107FF0090C0FF /* LaunchScreen.storyboard in Resources */,
 				5F1D17B726A107FF0090C0FF /* Preview Assets.xcassets in Resources */,
+				5FB6AD4C26A3C95F002BD85F /* Sound in Resources */,
 				5F1D17B426A107FF0090C0FF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -146,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F1D17AE26A107FE0090C0FF /* AppDelegate.swift in Sources */,
+				5FB6AD4626A3C57E002BD85F /* ViewController.swift in Sources */,
 				5F1D17B026A107FE0090C0FF /* SceneDelegate.swift in Sources */,
 				5F1D17B226A107FE0090C0FF /* ContentView.swift in Sources */,
 			);
